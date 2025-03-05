@@ -1,0 +1,100 @@
+#full {
+    width: 100%;
+    height: auto;
+}
+
+#inner_full {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+
+#body {
+    width: 100%;
+    height: 400px;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    color: white;
+}
+
+ul li {
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 55px;
+    background: red;
+    color: white;
+    float: left;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: white;
+    color: white;
+}
+
+#form {
+    width: 80%;
+    height: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.action-buttons .update {
+    background-color: green;
+}
+
+.action-buttons .delete {
+    background-color: purple;
+}
+
+.close-btn {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: grey;
+}
+
+input[type=text], input[type=password] {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
